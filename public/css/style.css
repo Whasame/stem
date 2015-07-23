@@ -3,7 +3,7 @@
 }
 body{
 	background-image: url("http://my-smashing.smashingapps.netdna-cdn.com/wp-content/uploads/2013/04/abstractbackground21.jpg");
-	background-repeat: no-repeat;
+	background-size: 100%;
 }
 h1{
 	color: black;

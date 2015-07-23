@@ -1,3 +1,55 @@
 .centerText {
 	text-align: center;
 }
+body{
+	background-image: url("abstract-backgrounds-tumblr-download.jpg");
+}
+h1{
+	color: white;
+	font-family: 'Georgia';
+	font-weight: 200px;
+	text-align: center;
+}
+
+.clockbody{
+	margin: auto;
+	background: lightblue;
+	border:20px dotted white;
+	width: 300px;
+	height: 300px;
+	max-width: 300px;
+	min-width: 300px;
+	max-height: 300px;
+	min-height: 300px;
+	border-radius: 1000px;
+}
+
+.clockhand{
+	background: black;
+	width: 2px;
+	min-width: 2px;
+	max-width: 2px;
+	height: 40%;
+	min-height: 20%;
+	max-height: 20%;
+	position: absolute;
+	left: 50%;
+	transform: rotate(200deg);
+	-moz-transform: rotate(200deg);
+	transform-origin: center bottom;
+	-moz-transform-origin: center bottom;
+}
+#minutehand{
+	min-height: 16%;
+	max-height: 16%;
+	top: 120px;
+	min-width: 5px;
+	max-width: 5px;
+}
+#hourhand{
+	min-height: 12%;
+	max-height: 12%;
+	top: 130px;
+	min-width: 8px;
+	max-width: 8px;
+}

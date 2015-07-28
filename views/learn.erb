@@ -16,8 +16,11 @@
 
   <!-- Custom CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/learn.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -46,21 +49,6 @@
         </button>
         <a class="navbar-brand" href="#page-top">Oyster University</a>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li class="page-scroll">
-            <a href="#history">History</a>
-          </li>
-          <li class="page-scroll">
-            <a href="#bop">BOP</a>
-          </li>
-        </ul>
-      </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
@@ -68,10 +56,10 @@
 
   <!-- Header -->
   <header>
-    <div class="container" style="width:100%;margin:0;">
+    <div class="container" style="width:100%;margin:0; top:-95px;">
       <div class="row">
         <div class="wrapper" style='z-index:1;'>
-          <ul class="bg-bubbles" style="margin-bottom:200px; top:-95px;">
+          <ul class="bg-bubbles" style="margin-bottom:0px">
             <li></li>
             <li></li>
             <li></li>
@@ -85,67 +73,92 @@
           </ul>
         </div>
         <div class="col-lg-12" style='z-index:2;'>
-
-          <img class="img-responsive circleImg" src="http://www.brooklynbargebar.com/images/bop-thumb.png" alt="">
-          <div class="intro-text">
-            <a href='/learn'>
-              <button type="button" class="btn btn-default btn-lg whiteBG">
-                Let's Go! <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
+			<div style='z-index:1' class="instructions"><h1>Instructions:</h1><p>Click on any of the black dots to learn about a body part of the oyster.</p><a href='/play'>
+              <button type="button" class="btn btn-default btn-lg">
+                Next <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
               </button>
-            </a>
-            <img class='starOyster' src='/img/oyster.png'>
-            <!--                         <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span> -->
-          </div>
+            </a></div>
+<div class="distribution-map" >
+    <img class="img-responsive" style='height: 650px; width:470px; left:30%;' src="img/anatomy.png" alt="">
+    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
+    <button class="map-point" style="top:40%;left:45%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Mantle</h2>
+                <p>is the loose outer tissue that covers the entire body of the oyster. The mantle is always in contact with the shell but is not attached to it. The primary function of the mantle is to produce the oyster shell.</p>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:38%;left:57%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Labial Palps</h2>
+                <p>are specialized organs that control the total amount of food that is passed along to the mouth.</p>
+            </div>
+        </div>
+    </button>
+	<button class="map-point" style="top:38%;left:51%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Viceral Mass</h2>
+                <p>contains organs for digestion, reproduction, excretion and circulation.</p>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:61%;left:55.5%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Connective Tissue</h2>
+                <p>serves as transport system for oxygen and other nutrients.</p>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:49%;left:52%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Lower Intestine</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac imperdiet nulla. Nulla blandit nisi lorem, nec mollis magna aliquam finibus. Integer malesuada, lorem a tristique porta, metus felis aliquet eros, quis.</p>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:63%;left:50%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Adductor Muscle</h2>
+                <p>is the organ where most of the digestion and food absorption takes place.</p>
+            </div>
+        </div>
+    </button>
+    <button class="map-point" style="top:47%;left:57%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Gills</h2>
+                <p>are the main respiratory organ but also play a role in feeding. By beating tiny hairs called cilia, the gills are able to create a current pumping water over the gills. By this method the gills are able to collect food particles.</p>
+            </div>
+        </div>
+    </button>
+	<button class="map-point" style="top:55.5%;left:50%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Pericardial Cavity</h2>
+                <p>contains the heart and contains fluid that serves as a lubricant to allow easy heart movement.</p>
+            </div>
+        </div>
+    </button>
+	<button class="map-point" style="top:56%;left:44.5%">
+        <div class="content">
+            <div class="centered-y">
+                <h2>Rectum</h2>
+                <p>can be found along the edge of the adductor muscle. It is a tube through which wastes are eliminated.</p>
+            </div>
+        </div>
+    </button>
+</div>
+          
         </div>
       </div>
     </div>
   </header>
-
-  <!-- History Section -->
-  <section class="success" id="history">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>History</h2>
-          <img class='starOyster' src='/img/oyster.png'>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-          <p>During the 16th century, the New York Harbor was home to billions of oysters. At this time, there were 220,000 acres of reefs, which supported biodiversity and prevented floods. These oysters served as a natural filtration for our water. Over time, industrialization and oyster</p>
-        </div>
-        <div class="col-lg-4">
-          <p>consumption lead to the population of oysters to decrease. By the time 1906, the harbor became toxic and lifeless. Reefs were covered in silt and were no longer able to regenerate.  Eventually, Clean Acts were made to solve this problem.</p>
-			<br>
-			<br>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-        </div>
-      </div>
-    </div>
-  </section>
-	  
-	<!-- BOP Section -->
-  <section class="success" id="bop">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Billion Oyster Project</h2>
-          <img class='starOyster' src='/img/oyster.png'>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-          <p>During the 16th century, the New York Harbor was home to billions of oysters. At this time, there were 220,000 acres of reefs, which supported biodiversity and prevented floods. These oysters served as a natural filtration for our water.</p>
-        </div>
-        <div class="col-lg-4">
-          <p>Over time, industrialization and oyster consumption lead to the population of oysters to decrease. By the time 1906, the harbor became toxic and lifeless. Reefs were covered in silt and were no longer able to regenerate.  Eventually, Clean Acts were made to solve this problem.</p>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <footer class="text-center">

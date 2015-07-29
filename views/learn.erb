@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Oyster University</title>
+  <title>Oyster University | Learn</title>
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,8 +19,8 @@
   <link href="css/learn.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -73,88 +73,91 @@
           </ul>
         </div>
         <div class="col-lg-12" style='z-index:2;'>
-			<div style='z-index:1' class="instructions"><h1>Instructions:</h1><p>Click on any of the black dots to learn about a body part of the oyster.</p><a href='/play'>
+          <div style='z-index:1' class="instructions">
+            <h1>Instructions:</h1>
+            <p>Click on any of the black dots to learn about a body part of the oyster;<br>Then click next to go on to the game.</p>
+            <a href='/play'>
               <button type="button" class="btn btn-default btn-lg">
                 Next <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
               </button>
-            </a></div>
-<div class="distribution-map" >
-    <img class="img-responsive" style='height: 650px; width:470px; left:30%;' src="img/anatomy.png" alt="">
-    <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
-    <button class="map-point" style="top:40%;left:45%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Mantle</h2>
-                <p>is the loose outer tissue that covers the entire body of the oyster. The mantle is always in contact with the shell but is not attached to it. The primary function of the mantle is to produce the oyster shell.</p>
-            </div>
-        </div>
-    </button>
-    <button class="map-point" style="top:38%;left:57%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Labial Palps</h2>
-                <p>are specialized organs that control the total amount of food that is passed along to the mouth.</p>
-            </div>
-        </div>
-    </button>
-	<button class="map-point" style="top:38%;left:51%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Viceral Mass</h2>
-                <p>contains organs for digestion, reproduction, excretion and circulation.</p>
-            </div>
-        </div>
-    </button>
-    <button class="map-point" style="top:61%;left:55.5%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Connective Tissue</h2>
-                <p>serves as transport system for oxygen and other nutrients.</p>
-            </div>
-        </div>
-    </button>
-    <button class="map-point" style="top:49%;left:52%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Lower Intestine</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac imperdiet nulla. Nulla blandit nisi lorem, nec mollis magna aliquam finibus. Integer malesuada, lorem a tristique porta, metus felis aliquet eros, quis.</p>
-            </div>
-        </div>
-    </button>
-    <button class="map-point" style="top:63%;left:50%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Adductor Muscle</h2>
-                <p>is the organ where most of the digestion and food absorption takes place.</p>
-            </div>
-        </div>
-    </button>
-    <button class="map-point" style="top:47%;left:57%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Gills</h2>
-                <p>are the main respiratory organ but also play a role in feeding. By beating tiny hairs called cilia, the gills are able to create a current pumping water over the gills. By this method the gills are able to collect food particles.</p>
-            </div>
-        </div>
-    </button>
-	<button class="map-point" style="top:55.5%;left:50%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Pericardial Cavity</h2>
-                <p>contains the heart and contains fluid that serves as a lubricant to allow easy heart movement.</p>
-            </div>
-        </div>
-    </button>
-	<button class="map-point" style="top:56%;left:44.5%">
-        <div class="content">
-            <div class="centered-y">
-                <h2>Rectum</h2>
-                <p>can be found along the edge of the adductor muscle. It is a tube through which wastes are eliminated.</p>
-            </div>
-        </div>
-    </button>
-</div>
-          
+            </a>
+          </div>
+          <div class="distribution-map">
+            <img class="img-responsive" style='height: 650px; width:470px; left:33%;' src="img/anatomy.png" alt="">
+            <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
+            <button class="map-point" style="top:40%;left:45%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Mantle</h2>
+                  <p>is the loose outer tissue that covers the entire body of the oyster. The mantle is always in contact with the shell but is not attached to it. The primary function of the mantle is to produce the oyster shell.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:38%;left:57%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Labial Palps</h2>
+                  <p>are specialized organs that control the total amount of food that is passed along to the mouth.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:38%;left:51%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Viceral Mass</h2>
+                  <p>contains organs for digestion, reproduction, excretion and circulation.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:61%;left:55.5%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Connective Tissue</h2>
+                  <p>serves as transport system for oxygen and other nutrients.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:49%;left:52%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Lower Intestine</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac imperdiet nulla. Nulla blandit nisi lorem, nec mollis magna aliquam finibus. Integer malesuada, lorem a tristique porta, metus felis aliquet eros, quis.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:63%;left:50%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Adductor Muscle</h2>
+                  <p>is the organ where most of the digestion and food absorption takes place.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:47%;left:57%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Gills</h2>
+                  <p>are the main respiratory organ but also play a role in feeding. By beating tiny hairs called cilia, the gills are able to create a current pumping water over the gills. By this method the gills are able to collect food particles.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:55.5%;left:50%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Pericardial Cavity</h2>
+                  <p>contains the heart and contains fluid that serves as a lubricant to allow easy heart movement.</p>
+                </div>
+              </div>
+            </button>
+            <button class="map-point" style="top:56%;left:45.5%">
+              <div class="content">
+                <div class="centered-y">
+                  <h2>Rectum</h2>
+                  <p>can be found along the edge of the adductor muscle. It is a tube through which wastes are eliminated.</p>
+                </div>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -166,9 +169,8 @@
       <div class="container">
         <div class="row">
           <div class="footer-col col-md-4">
-            <h3>Location</h3>
-            <p>3481 Melrose Place
-              <br>Beverly Hills, CA 90210</p>
+            <h3>Billion Oyster Project</h3>
+            <a href="http://www.billionoysterproject.org/" class="btn-social btn-outline"><i class="fa fa-fw fa-info-circle"></i></a>
           </div>
           <div class="footer-col col-md-4">
             <h3>Around the Web</h3>
@@ -191,8 +193,8 @@
             </ul>
           </div>
           <div class="footer-col col-md-4">
-            <h3>About Freelancer</h3>
-            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <h3>STEM</h3>
+            <a href="http://www.stemedcoalition.org/" class="btn-social btn-outline"><i class="fa fa-fw fa-info-circle"></i></a>
           </div>
         </div>
       </div>
@@ -201,7 +203,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            Copyright &copy; Your Website 2014
+            Copyright &copy; 2015
           </div>
         </div>
       </div>
@@ -225,10 +227,6 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/cbpAnimatedHeader.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
 
   <!-- Custom Theme JavaScript -->
   <script src="js/freelancer.js"></script>

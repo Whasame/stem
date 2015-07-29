@@ -476,8 +476,9 @@ footer .footer-below {
   top: 0px;
   width: 3000px;
 	margin: 0;
-  height: 710px;
+  height: 810px;
   overflow: hidden;
+	bottom: 50px;
 }
 
 .bg-bubbles {
@@ -590,4 +591,7 @@ footer .footer-below {
     -webkit-transform: translateY(-700px) rotate(600deg);
             transform: translateY(-700px) rotate(600deg);
   }
+}
+.paddtop {
+	padding-top: 175px;
 }

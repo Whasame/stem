@@ -8,10 +8,16 @@ class MyApp < Sinatra::Base
 	end
 	
 	get '/play' do
+		@part = "mantle"
+		@result = "Correct"
 		erb :play
 	end
 	
 	get '/learn' do
 		erb :learn
+	end
+	
+	get '/vice' do
+		erb :vice
 	end
 end

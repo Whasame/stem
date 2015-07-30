@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Oyster University | Learn</title>
+  <title>Oyster University | Trivia</title>
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,7 @@
   <!-- Custom CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
   <link href="css/learn.css" rel="stylesheet">
+  <link href="css/radio.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
@@ -58,7 +59,7 @@
   <header>
     <div class="container" style="width:100%;margin:0; top:-95px;">
       <div class="row">
-        <div class="wrapper" style='z-index:1;'>
+        <div class="wrapper" style='z-index:1; height:1630px; '>
           <ul class="bg-bubbles" style="margin-bottom:0px">
             <li></li>
             <li></li>
@@ -72,11 +73,113 @@
             <li></li>
           </ul>
         </div>
-		  <div style='z-index:2;'>
-			  <h2>Question</h2>
-			  <div id='vcent'>
-			 <div class="buttons"><input id="rock" name="flat" type="radio" /><label for="rock">Rock</label><input id="paper" name="flat" type="radio" /><label for="paper">Paper</label><input id="scissors" name="flat" type="radio" /><label for="scissors">Scissors</label></div>
-			  </div>
+		  <div style='z-index: 2;'>
+				<h1>Quiz</h1>
+				<br>
+				<form action='/trivia' method='post'>
+			  <h2>1: The adductor muscle leaves a scar on the shell</h2>
+				<div style='display: inline-block;'>
+					<fieldset id="q1">
+			  <input type="radio" name="q1" value="11" id="toggle-1"> 
+				<label for="toggle-1">TRUE</label>
+				<input type="radio" name="q1" value="12" id="toggle-2"> 
+				<label for="toggle-2">FALSE</label>
+					</fieldset>
+				</div>
+				
+				<h2>2: What is the primary function of the mantle?</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q2" value="21" id="toggle-3"> 
+				<label for="toggle-3">Produces heat</label>
+				<input type="radio" name="q2" value="22" id="toggle-4"> 
+				<label for="toggle-4">Produces oyster shells</label>
+				<input type="radio" name="q2" value="23" id="toggle-5"> 
+				<label for="toggle-5">Both</label>
+					</fieldset>
+				</div>
+					
+				<h2>3: Which organ system are the gills part of?</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q3" value="31" id="toggle-6"> 
+				<label for="toggle-6">Respiratory</label>
+				<input type="radio" name="q3" value="32" id="toggle-7"> 
+				<label for="toggle-7">Circulatory</label>
+				<input type="radio" name="q3" value="33" id="toggle-8"> 
+				<label for="toggle-8">Excretory</label>
+					</fieldset>
+				</div>
+					
+					<h2>4: The labial palps do not control the amount of food passed to the mouth</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q4" value="41" id="toggle-9"> 
+				<label for="toggle-9">TRUE</label>
+				<input type="radio" name="q4" value="42" id="toggle-10"> 
+				<label for="toggle-10">FALSE</label>
+					</fieldset>
+				</div>
+				
+				<h2>5: What is the purpose of the rectum?</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q5" value="51" id="toggle-11"> 
+				<label for="toggle-11">Breack the oysters</label>
+				<input type="radio" name="q5" value="52" id="toggle-12"> 
+				<label for="toggle-12">Store Food</label>
+				<input type="radio" name="q5" value="53" id="toggle-13"> 
+				<label for="toggle-13">Expel Waste</label>
+					</fieldset>
+				</div>
+				
+				<h2>6: The visceral mass contains organs for digestion, reproduction, excretion and circulation</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q6" value="61" id="toggle-14"> 
+				<label for="toggle-14">TRUE</label>
+				<input type="radio" name="q6" value="62" id="toggle-15"> 
+				<label for="toggle-15">FALSE</label>
+					</fieldset>
+				</div>
+					
+				<h2>7: What is the purpose of the pericardial cavity?</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q7" value="71" id="toggle-16"> 
+				<label for="toggle-16">Make sure the oysters have no cavities</label>
+				<input type="radio" name="q7" value="72" id="toggle-17"> 
+				<label for="toggle-17">Contains fluids for the heart to move</label>
+				<input type="radio" name="q7" value="73" id="toggle-18"> 
+				<label for="toggle-18">Neither</label>
+					</fieldset>
+				</div>
+					
+					<h2>8: Which organ serves as a transport system?</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q8" value="81" id="toggle-19"> 
+				<label for="toggle-19">Connective Tissue</label>
+				<input type="radio" name="q8" value="82" id="toggle-20"> 
+				<label for="toggle-20">Mantle</label>
+				<input type="radio" name="q8" value="83" id="toggle-21">
+				<label for="toggle-21">Gills</label>
+					</fieldset>
+				</div>
+				
+				<h2>9: The large intestine is where most of the digestion and food absorption takes place</h2>
+				<div style='display: inline-block;'>
+					<fieldset>
+			  <input type="radio" name="q9" value="91" id="toggle-22"> 
+				<label for="toggle-22">TRUE</label>
+				<input type="radio" name="q9" value="92" id="toggle-23"> 
+				<label for="toggle-23">FALSE</label>
+					</fieldset>
+					<img class='starOyster' src='/img/oyster.png'>
+					
+					<button class='btn btn-outline btn-lg'type='submit'>SUBMIT</button>
+					</form>
+				</div>
 		  </div>
       </div>
     </div>

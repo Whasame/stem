@@ -51,5 +51,19 @@ class MyApp < Sinatra::Base
 		erb :trivia
 	end
 	
-# 	get '/' 
+	post '/trivia' do
+		@score = 0
+		@ans= params[:q1]
+		@ans2= params[:q2]
+		@ans3= params[:q3]
+		@ans4= params[:q4]
+		@ans5= params[:q5]
+		@ans6= params[:q6]
+		@ans7= params[:q7]
+		@ans8= params[:q8]
+		@ans9= params[:q9]
+		@all = @ans + " " + @ans2 + " " + @ans3 + " " + @ans4 + " " + @ans5 + " " + @ans6 + " " + @ans7 + " " + @ans8 + " " + @ans9
+		puts @all
+		erb :results
+	end
 end

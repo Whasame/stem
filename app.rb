@@ -50,4 +50,6 @@ class MyApp < Sinatra::Base
 	get '/trivia' do
 		erb :trivia
 	end
+	
+# 	get '/' 
 end

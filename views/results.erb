@@ -48,7 +48,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top">Oyster University</a>
+        <a class="navbar-brand" href="/">Oyster University</a>
       </div>
       <!-- /.navbar-collapse -->
     </div>
@@ -59,7 +59,7 @@
   <header>
     <div class="container" style="width:100%;margin:0; top:-95px;">
       <div class="row">
-        <div class="wrapper" style='z-index:1; height:1630px; '>
+        <div class="wrapper" style='z-index:1; height:600px; '>
           <ul class="bg-bubbles" style="margin-bottom:0px">
             <li></li>
             <li></li>
@@ -73,9 +73,12 @@
             <li></li>
           </ul>
         </div>
-		  <div style='z-index: 2;'>
+		  <div style='z-index: 2; top: 35px;'>
 				<h1>Congratulations</h1>
 				<h3> Here is your score: <%=@final%></h3>
+				<a href='/play'>
+				<button class='btn btn-outline btn-lg'> Play Again </button>
+				</a>
 				<br>
 		  </div>
       </div>
@@ -83,7 +86,7 @@
   </header>
 
   <!-- Footer -->
-  <footer class="text-center" style='z-index:2;'>
+  <footer class="text-center" style='z-index: 2;'>
     <div class="footer-above">
       <div class="container">
         <div class="row">

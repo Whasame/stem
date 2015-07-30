@@ -62,6 +62,15 @@ class MyApp < Sinatra::Base
 		@ans7 = params[:q7]
 		@ans8 = params[:q8]
 		@ans9 = params[:q9]
+		@ans.to_s
+		@ans2.to_s
+		@ans3.to_s
+		@ans4.to_s
+		@ans5.to_s
+		@ans6.to_s
+		@ans7.to_s
+		@ans8.to_s
+		@ans9.to_s
  		@all = @ans + " " + @ans2 + " " + @ans3 + " " + @ans4 + " " + @ans5 + " " + @ans6 + " " + @ans7 + " " + @ans8 + " " + @ans9
 		@allSplit =	@all.to_s.split
 # 		@allSplit do |a|

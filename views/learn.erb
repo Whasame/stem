@@ -72,8 +72,7 @@
             <li></li>
           </ul>
         </div>
-        <div class="col-lg-12" style='z-index:2;'>
-          <div style='z-index:1' class="instructions">
+<!-- 				<div style='z-index:3' class="instructions">
             <h1>Instructions:</h1>
             <p>Click on any of the black dots to learn about a body part of the oyster;<br>Then click next to go on to the game.</p>
 			  <p script='font-size: 10px;'>Currently only works on 15 inch screens</p>
@@ -82,11 +81,13 @@
                 Next <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
               </button>
             </a>
-          </div>
+          </div> -->
+        <div style='z-index:2;'>
+          
           <div class="distribution-map">
-            <img class="img-responsive" style='height: 650px; width:470px; left:30.5%;' src="img/anatomy.png" alt="">
+            <img class="img-responsive" style='height:650px; width:470px; display: block; margin-left: auto; margin-right: auto;' src="img/anatomy.png" alt="">
             <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
-            <button class="map-point" style="top:40%;left:45%">
+            <button class="map-point" style="margin-left:-60px; margin-top:-380px;">
               <div class="content">
                 <div class="centered-y">
                   <h2>Mantle</h2>
@@ -94,7 +95,7 @@
                 </div>
               </div>
             </button>
-            <button class="map-point" style="top:38%;left:57%">
+            <button class="map-point" style="margin-left:90px; margin-top:-410px;">
               <div class="content">
                 <div class="centered-y">
                   <h2>Labial Palps</h2>
@@ -122,7 +123,7 @@
               <div class="content">
                 <div class="centered-y">
                   <h2>Lower Intestine</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac imperdiet nulla. Nulla blandit nisi lorem, nec mollis magna aliquam finibus. Integer malesuada, lorem a tristique porta, metus felis aliquet eros, quis.</p>
+                  <p>is the organ where most of the digestion and food absorption takes place.</p>
                 </div>
               </div>
             </button>
@@ -134,7 +135,7 @@
                 </div>
               </div>
             </button>
-            <button class="map-point" style="top:47%;left:57%">
+            <button class="map-point" style="margin-left:100px;margin-top:-300px;">
               <div class="content">
                 <div class="centered-y">
                   <h2>Gills</h2>

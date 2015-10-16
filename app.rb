@@ -3,6 +3,10 @@ Bundler.require
 
 class MyApp < Sinatra::Base
 	
+	def asdjl(a, b)
+		value = (a + b)
+	end
+	
 	get '/' do
 		erb :index
 	end
